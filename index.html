@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js-home-task-5</title>
+</head>
+<body id="bod">
+    <section id="hero">
+      <div id="hero-box" >
+        <h1 id="header">Hello    5    js home-task </h1>
+        <p id="task" > '    Hi, click buttons pls ;)  ' </p>
+        <button id="but1" type="button" onclick="document.getElementById('task').innerHTML = 'Hello JavaScript!'">Click Me!</button>
+        <button id="but2" type="button" onclick="document.getElementById('task').innerHTML = 'Hello '">Click Me!</button>
+        <!-- <button type="button" onclick="document.getElementById('task').innerHTML = 'Ups!' , window.alert( 'Hello ')">Click Me!</button> -->
+
+      </div>
+       
+    </section>
+    
+    <section id="js-h-t">
+
+      <div class="t1">
+        <h2>task 1</h2>
+        <ul>
+          <li><p id="task-1/1" >t1</p></li>
+   
+          
+        </ul>
+       
+        
+        
+
+      </div>
+      <div class="t2">
+        <h2>task 2</h2>
+
+        <ul>
+          <li><p id="task-2/1" >t1</p></li>
+          <li> <p id="task-2/2" >t2</p></li>
+          <li><p id="task-2/3" >t3</p></li>
+          
+          
+        </ul>
+        
+      </div>
+      <div class="t3">
+        <h2>task 3</h2>
+        <ul>
+          <li> <p id="task-3/1" >t1</p></li>
+
+
+        </ul>
+
+
+      </div>
+
+    </div>
+    <div class="t4">
+      <h2>task 4</h2>
+      <ul>
+        <li> <p id="task-4/1" >t1</p></li>
+        <li><p id="task-4/2" >t2</p></li>
+        
+
+      </ul>
+
+
+    </div>
+      
+
+   </section>
+
+      <!-- --------------body-------- -->
+      <script>
+        document.getElementById("bod").style.backgroundColor= "#9173a2"
+      </script>
+
+   <!-- =============================== SECTION=================== -->
+    <!-- ------------------------querySelector-------------- -->
+    <!-- <script>
+      const titleEl = document.querySelector("h1");
+      const transformTitleEL = titleEl.textContent.toUpperCase();
+      setTimeout(()=>{
+        titleEl.innerHTML=transformTitleEL;
+      },4000);
+    </script> -->
+<!-- ------------------------------------------------ -->
+<script>
+  const titleEl = document.querySelector("h1");
+  const transformTitleEL = titleEl.textContent.toUpperCase();
+  
+
+  setTimeout(()=>{
+    titleEl.innerHTML=transformTitleEL;
+
+  },4000);
+</script>
+
+   <!-- ---------------------------------- -->
+   <script>
+    document.getElementById("js-h-t").style.display = "flex";
+</script>
+
+<script>
+    document.getElementById("js-h-t").style.flexWrap = "wrap";
+</script>
+
+ <script>
+    document.getElementById("js-h-t").style.justifyContent = "space-around";
+</script>
+
+<script>
+    document.getElementById("js-h-t").style.backgroundColor = "#d09eae";
+</script>
+
+<script>
+  document.getElementById("js-h-t").style.color = "#1f1823";
+</script>
+<script>
+  document.getElementById("js-h-t").style.borderRadius = "8px";
+</script>  
+
+    <!-- <script>
+        window.alert( 'Hello ');
+    </script> -->
+
+                             <!-- ================================hero -->
+      <script>
+        document.getElementById("hero-box").style.marginLeft = "auto";
+      </script>
+
+      <script>
+          document.getElementById("hero-box").style.marginRight = "auto";
+      </script>
+
+      <script>
+          document.getElementById("hero-box").style.maxWidth = "400px";
+      </script>
+
+      <script>
+          document.getElementById("hero-box").style.display =  "flex";
+      </script>
+
+        <script>
+          document.getElementById("hero-box").style.flexDirection = "column";
+       </script>
+
+      <script>
+        document.getElementById("hero-box").style.backgroundColor = "#9173a2";
+       </script>
+         <script>
+           document.getElementById("hero").style.borderRadius = "8px";
+         </script>
+
+       <script>
+              document.getElementById("hero").style.backgroundColor = "#9173a2";
+       </script>
+
+       <script>
+         document.getElementById("hero").style.color = "#1f1823";
+       </script>   
+       <script>
+        document.getElementById("task").style.marginLeft="auto";
+       </script>  
+       <script>
+        document.getElementById("task").style.marginRight="auto";
+       </script>   
+       <script>
+        document.getElementById("header").style.marginLeft="auto";
+       </script>
+       <script>
+         document.getElementById("header").style.marginRight="auto";
+       </script>
+
+       <!-- ==================================== -->
+  <script>
+    document.getElementById("but1").style.color="#1f1823";
+  </script>
+  <script>
+    document.getElementById("but1").style.backgroundColor="#d79eb9";
+  </script>
+   <script>
+     document.getElementById("but1").style.borderRadius="10px";
+   </script>
+  <script>
+   document.getElementById("but2").style.color="#1f1823";
+  </script>
+  <script>
+    document.getElementById("but2").style.backgroundColor="#d79eb9";
+  </script>
+      <script>
+       document.getElementById("but2").style.borderRadius="10px";
+     </script>
+    
+
+    <script src="./js/task-1.js " defer tipe="module"></script>
+    <script src="./js/task-2.js " defer tipe="module"></script>
+    <script src="./js/task-3.js " defer tipe="module"></script>
+    <script src="./js/task-4.js " defer tipe="module"></script>
+</body>
+</html>
